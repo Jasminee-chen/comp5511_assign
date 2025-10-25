@@ -172,3 +172,7 @@ The program generates two visual charts:
 - Red squares denote warehouses
 - Black lines indicate vehicle travel paths
 - Vehicles must visit all customers within a region before moving to another
+
+### Reference
+
+https://github.com/DEAP/deap
