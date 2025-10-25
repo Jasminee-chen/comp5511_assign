@@ -1,5 +1,5 @@
 # comp5511 assignment1
-# 2.STOCHASTIC DEMAND Problem
+# 2.STOCHASTIC DEMAND PROBLEM
 ## Project Overview
 
 This project implements a genetic algorithm-based optimization solution for the Vehicle Routing Problem (VRP) with random demand. The approach accounts for real-world uncertainty in customer demand by incorporating an overload penalty mechanism into the fitness function, ensuring vehicle capacity constraints are met. The project aims to optimize routes to minimize total travel distance while accommodating demand variability.
