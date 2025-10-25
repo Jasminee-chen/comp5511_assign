@@ -172,7 +172,7 @@ def fitness(individual):
 ### Output Results
 
 After running, the program will output:
-1. Total distance of the optimal route (e.g., `Optimal distance: 1250.8`)
+1. Total distance of the optimal route：3644.1
 
 ### Visualization Results
 
