@@ -130,3 +130,7 @@ WEIGHT_W = 0.3        # Weighting coefficient, balancing two objectives
 ### NSGA-II Multi-Objective Optimization Algorithm
 
 Translated with DeepL.com (free version)
+
+### Reference
+
+https://github.com/DEAP/deap
