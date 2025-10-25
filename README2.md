@@ -8,12 +8,12 @@ This project implements a genetic algorithm-based optimization solution for the 
 
 ### Random Demand VRP Problem
 
-Requirements:
-1. Assume each customer's demand in VRP.csv is mean-centered, with actual demand following a normal distribution N(DEMAND, 0.2·DEMAND)
-2. Demand values are truncated to positive integers
-3. Design an evolutionary algorithm to optimize routes under random demand
-4. Ensure vehicle capacity (200) is not exceeded
-5. Compare results (e.g., average distance, feasibility rate) with the deterministic scenario in Task 1
+According to the problem statement, the core issues addressed by this project are:
+- Demand Uncertainty: Actual customer demand is a random variable following a normal distribution N(DEMAND, (0.2・DEMAND)²), where DEMAND is the mean value provided in VRP.csv, and demand values are truncated to positive integers.
+- Constraints: Single vehicle, capacity limited to 200, must depart from and return to the warehouse.
+- Operating Mode: Vehicles may make multiple trips to/from the warehouse (multiple deliveries) to fulfill all customer demands.
+- Optimization Goal: Minimize the expected total travel distance under random demand.
+- Comparative Analysis: Results must be compared with deterministic scenarios (Task 1), including metrics such as average distance and feasibility rate.
 
 ### Random Demand Model
 
@@ -143,10 +143,12 @@ The genetic algorithm optimizes customer visit sequences:
 
 ### Output Results
 
-After running, the program outputs:
-1. Minimum and average fitness for each generation
-2. Customer ID order of the optimal path
-3. Total distance of the optimal path (including any penalties)
+Output Results
+
+After program execution, the following will be output:
+- The minimum and average fitness values for each generation
+- The expected total distance of the optimal path：3134.86
+
 
 ### Visualization Results
 
