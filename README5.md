@@ -131,3 +131,6 @@ Adjust the following parameters as needed:
 - `mutpb`: Mutation probability, default 0.2
 - `max_load`: Maximum vehicle load, default 200
 
+### Reference
+
+https://github.com/DEAP/deap
