@@ -160,3 +160,7 @@ Under random demand conditions, compared to deterministic scenarios:
 - **Average Distance**: Typically slightly longer due to accounting for demand uncertainty
 - **Feasibility Rate**: Significantly improved as path design accommodates demand fluctuations
 - **Robustness**: Paths exhibit greater resilience to demand variations
+
+### Reference
+
+https://github.com/DEAP/deap
