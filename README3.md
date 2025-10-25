@@ -1,5 +1,5 @@
 # comp5511 assignment1
-# LARGE-SCALE OPTIMIZATION PROBLEM
+# 3.LARGE-SCALE OPTIMIZATION PROBLEM
 ## Project Overview
 
 This project implements a large-scale Vehicle Routing Problem (VRP) optimization solution based on clustering and genetic algorithms. The approach groups customer locations using K-means clustering and employs genetic algorithms to optimize routes, solving a VRP problem involving 200 customer locations. Vehicles must visit all customers within a single area before moving to another.
