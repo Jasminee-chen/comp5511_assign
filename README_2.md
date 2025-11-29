@@ -29,7 +29,7 @@ $$0, 1$$
 
 , which is standard practice for neural networks processing image data. This is achieved through the following operations:
 
-X_{\text{norm}}, Y_{\text{norm}} = X / 255.0, Y / 255.0
+X\_{\\text{norm}}, Y\_{\\text{norm}} = X / 255.0, Y / 255.0
 
 Reshaping: Reshapes the one-dimensional pixel vector into a PyTorch tensor format [1, 28, 28], where 1 represents the number of channels (grayscale image).
 
