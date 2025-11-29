@@ -35,7 +35,7 @@ Balancing training speed and stability.
 
 Suggested training range; the final value should be determined in conjunction with the convergence curve.
 
- -Regularization (Weight Decay)：$1 \times 10^{-5}$
+ -Regularization (Weight Decay)： $1 \times 10^{-5}$
 
 L2 regularization, recommended for enhancing the model's generalization ability and preventing overfitting.
 #### 4. Setup and Dependencies
