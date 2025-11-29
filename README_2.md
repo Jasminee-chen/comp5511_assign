@@ -29,10 +29,7 @@ $$0, 1$$
 
 , which is standard practice for neural networks processing image data. This is achieved through the following operations:
 
-\[
-X_{\text{norm}} = \frac{X}{255}, \quad Y_{\text{norm}} = \frac{Y}{255}
-\]
-
+X_norm = X / 255,  Y_norm = Y / 255
 
 Reshaping: Reshapes the one-dimensional pixel vector into a PyTorch tensor format [1, 28, 28], where 1 represents the number of channels (grayscale image).
 
@@ -60,7 +57,7 @@ Loss Function and Training
 
 Loss Function: Mean Square Error (MSE) loss (nn.MSELoss) is used, suitable for the regression task of denoising. It quantifies the average squared difference between the predicted pixel value $\hat{y}$ and the true pixel value $y$:
 
-\mathrm{MSE} = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
+MSE = (1/N) * sum((y_i - y_hat_i)^2)
 
 Optimizer: An optimizer such as Adam or SGD is used.
 
