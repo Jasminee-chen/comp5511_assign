@@ -57,7 +57,7 @@ Loss Function and Training
 
 Loss Function: Mean Square Error (MSE) loss (nn.MSELoss) is used, suitable for the regression task of denoising. It quantifies the average squared difference between the predicted pixel value $\hat{y}$ and the true pixel value $y$:
 
-MSE = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
+\text{MSE} = \frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2
 
 Optimizer: An optimizer such as Adam or SGD is used.
 
