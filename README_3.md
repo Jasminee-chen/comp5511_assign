@@ -38,3 +38,14 @@ Suggested training range; the final value should be determined in conjunction wi
  -Regularization (Weight Decay)：$1 \times 10^{-5}$
 
 L2 regularization, recommended for enhancing the model's generalization ability and preventing overfitting.
+#### 4. Setup and Dependencies
+The project code runs in a Python environment based on the PyTorch framework.
+- Python 3.8+：Core programming language
+- Torch 2.0.0+：Core framework for neural networks (PyTorch)
+- NumPy 1.26.0：Scientific computing and array manipulation
+- Pandas 2.1.0：CSV data reading and processing
+- Matplotlib 3.7.2：Visualization of the training process and display of denoised results
+  
+```bash
+pip install torch torchvision numpy pandas matplotlib
+```
