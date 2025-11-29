@@ -62,5 +62,5 @@ The performance of all models is evaluated on the test set.
 
 - Evaluation metrics: The primary metrics used are Mean Absolute Error (MAE), Root Mean Square Error (RMSE), and R² Score.
 
-- Segmented Model Summary: The overall performance of the segmented model is calculated by combining the predicted results $\hat{y}$ and the actual values ​​$y$ of all subsets, and then calculating the total MAE and RMSE.
+- Segmented Model Summary: The overall performance of the segmented model is calculated by combining the predicted results $\hat{y}$ and the actual values ​​y of all subsets, and then calculating the total MAE and RMSE.
   
