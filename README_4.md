@@ -9,8 +9,8 @@ from the starting point (0, 0) to the ending point (7, 7).
 
 Compare the performance difference between deterministic environments (is_slippery=False) and stochastic environments (is_slippery=True).
 
-Analyze the impact of key hyperparameters ($\alpha, \gamma, \epsilon$) on the learning process.
-### 2. 
+Analyze the impact of key hyperparameters ( $\alpha, \gamma, \epsilon$ ) on the learning process.
+### 2. Setup and Dependencies
 - Python 3.8+：Core programming language
 
 - NumPy 1.26.0：Used for creating Q-Tables and numerical computation
@@ -20,3 +20,18 @@ Analyze the impact of key hyperparameters ($\alpha, \gamma, \epsilon$) on the le
 - Matplotlib 3.7.2：Plots learning curves (total reward vs. number of rounds)
 
 - Imageio 2.31.1：Used to generate GIFs or animations of agent policy execution
+
+```bash
+pip install gymnasium numpy matplotlib imageio tqdm
+```
+
+### 3.Results and Visualization
+
+1. Learning Curve
+
+The code will plot the relationship between the number of episodes and the total cumulative reward. This curve is used to observe the algorithm's convergence speed and final performance level.
+
+2. Policy Animation
+
+Using the imageio library, a GIF animation is generated to show the path the agent takes in the environment according to the finally learned optimal Q-table policy, visually evaluating the policy's effectiveness.
+
