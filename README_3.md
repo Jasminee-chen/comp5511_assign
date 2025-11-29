@@ -23,7 +23,7 @@ Recommended for image reconstruction. Compared to MSE Loss (Mean Squared Error),
 
 Suitable for most deep learning tasks, with stable performance.
 
- -Learning Rate ($\alpha$)：$5 \times 10^{-4}$ to $1 \times 10^{-3}$
+ -Learning Rate ($\alpha$)： $5 \times 10^{-4}$ to $1 \times 10^{-3}$
 
 A reasonable initial range, requiring fine-tuning through experiments.
 
