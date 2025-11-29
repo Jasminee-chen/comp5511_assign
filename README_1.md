@@ -50,7 +50,7 @@ Train a separate LinearRegression model on each subset and use it to predict the
 
 - K-means Clustering Segmentation:
 
-Cluster the features of the training set using KMeans (e.g., $K=5$) and assign cluster labels to all samples.
+Cluster the features of the training set using KMeans (e.g., K=5) and assign cluster labels to all samples.
 
 Iterate through each cluster label $k$ and train a separate LinearRegression model on the training subset corresponding to $k$.
 
