@@ -1,4 +1,8 @@
 ## comp5511 assignment2 
 ## LINEAR REGRESSION FOR HOUSING PRICE PREDICTION
 
-This project focuses on solving the house price forecasting problem using linear regression and piecewise modeling strategies.
+### 1. Project Overview
+This project aims to gain a deeper understanding of supervised learning, unsupervised learning (K-means clustering), and the impact of different data segmentation strategies on model performance through practical application.
+### 2. Setup and Dependencies
+The project code is implemented in Google Colab (LINEAR_REGRESSION_FOR_HOUSING_PRICE_PREDICTION.ipynb), and Python 3.8+ is recommended.
+pip install numpy==1.26.0 pandas==2.1.0 scikit-learn==1.3.0 matplotlib==3.7.2
